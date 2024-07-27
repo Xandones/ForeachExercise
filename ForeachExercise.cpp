@@ -7,10 +7,10 @@ int main()
 	float GradesAverage = 0.0f;
 	int Size = sizeof(Grades) / sizeof(Grades[0]);
 
-	for (auto x : Grades)
+	for (auto Grade : Grades)
 	{ 
-		GradesAverage += x;
-		cout << x << " ";
+		GradesAverage += Grade;
+		cout << Grade << " ";
 	}
 	cout << "\n";
 	GradesAverage /= Size;
